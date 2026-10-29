@@ -1,0 +1,18 @@
+name = "white-hosting-id-tempmail"
+main = "src/index.js"
+compatibility_date = "2026-10-29"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "whid-tempmail"
+database_id = "94674865-50e1-43c8-a90c-4dcc3fbe21f6"
+
+[vars]
+ALLOWED_DOMAINS = "whtstore.my.id,shirochan.my.id,kingxjunz.my.id"
+MAIL_TTL_HOURS = "24"
+MAX_MESSAGES_PER_INBOX = "50"
